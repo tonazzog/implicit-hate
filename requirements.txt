@@ -1,0 +1,16 @@
+pandas==2.2.3
+matplotlib==3.10.0
+transformers==4.40.1
+langchain==0.3.16
+langgraph==0.2.68
+dspy==2.5.43
+bert-score==0.3.13
+langchain_mistralai==0.2.3
+langchain_ollama==0.2.0
+langchain_openai==0.2.14
+langchain_community==0.3.12
+scikit-learn==1.6.1
+nltk==3.9.1
+rouge_score==0.1.2
+seaborn==0.13.2
+openpyxl==3.1.2

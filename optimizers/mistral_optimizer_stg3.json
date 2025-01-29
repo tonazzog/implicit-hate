@@ -1,0 +1,138 @@
+{
+  "lm": null,
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "post": "marrying children and female genital mutilation all good!",
+      "targeted_group": "Muslims",
+      "implied_meaning": "Muslims engage in harmful practices."
+    },
+    {
+      "augmented": true,
+      "post": "white house is muslim",
+      "targeted_group": "Muslims",
+      "implied_meaning": "Muslims are taking over the government."
+    },
+    {
+      "augmented": true,
+      "post": "#hannahcornelius - why not come home to #europe  whites will never be welcome in #southafrica",
+      "targeted_group": "South Africans",
+      "implied_meaning": "South Africans are hostile to whites."
+    },
+    {
+      "augmented": true,
+      "post": "antifa is code word for anti-white #whitegenocide #berkeley",
+      "targeted_group": "white people",
+      "implied_meaning": "antifa is a threat to white people"
+    },
+    {
+      "augmented": true,
+      "post": "i can help you against islamic virus .",
+      "targeted_group": "Muslims",
+      "implied_meaning": "Muslims are harmful"
+    },
+    {
+      "augmented": true,
+      "post": ": uk : racist black man punches pregnant white girl in stomach as onlookers watch in horror",
+      "targeted_group": "Black people",
+      "implied_meaning": "Black people are violent and racist."
+    },
+    {
+      "augmented": true,
+      "post": "they are just white people . not high in the pecking order with him .",
+      "targeted_group": "White people",
+      "implied_meaning": "White people are inferior."
+    },
+    {
+      "post": "white massive revolution !",
+      "targeted_group": "Minorities",
+      "implied_meaning": "Minorities instigate against whites."
+    },
+    {
+      "post": "aren't you busy making excuses for syrian rapists ?",
+      "targeted_group": "Syrians",
+      "implied_meaning": "Syrians are violent criminals"
+    },
+    {
+      "post": "us citizens don't matter . especially if you're a white male . this is the new american illegal & nonenglish speaking",
+      "targeted_group": "Illegals",
+      "implied_meaning": "Illegals want to take power from US citizens."
+    },
+    {
+      "post": " rt : how do you reconcile your view with the koran commanding  \" kill the \"",
+      "targeted_group": "Muslims",
+      "implied_meaning": "Muslims are killers."
+    },
+    {
+      "post": "i opine  today's america supports jews  chinese  migrated muslims and all races but neglecting its white aborigines !",
+      "targeted_group": "Minorities",
+      "implied_meaning": "Minorities are given special consideration"
+    },
+    {
+      "post": "white genocide is worldwide  not just in america . it is something we can rally around in every white nation .",
+      "targeted_group": "non-white people",
+      "implied_meaning": "non-white people are threatening"
+    },
+    {
+      "post": "time to purge within our own communities. make all suspected muslims dissapear. do it in a fashion where nobody will notice. make examples!",
+      "targeted_group": "Muslims",
+      "implied_meaning": "Muslims should be purged"
+    },
+    {
+      "post": "how dare white people want to exist as a race ! that is racism unless it's a non-white race wanting to think tribally ! those bigots !",
+      "targeted_group": "non-whites",
+      "implied_meaning": "Non-whites are bigots."
+    },
+    {
+      "post": "absolutely  jews keep dying at the hands of white jews in order for the few je",
+      "targeted_group": "Jews",
+      "implied_meaning": "Jews are self-destructive."
+    },
+    {
+      "post": "why does islam have to be forced on people ? kill people who renounce it ? kill those of other faiths ?",
+      "targeted_group": "Muslims",
+      "implied_meaning": "Muslims force their religion on others"
+    },
+    {
+      "post": "liberal hippie bs ! go to the middle east and let's see your welcome strangers theroy !",
+      "targeted_group": "Immigrants",
+      "implied_meaning": "Immigrants should be deported"
+    },
+    {
+      "post": "mostly white clinics are called pregnancy clinics . in other neighborhoods  clinics are called abortion clinics .",
+      "targeted_group": "white people",
+      "implied_meaning": "White people have abortions."
+    },
+    {
+      "post": "blue lives do matterwhen the cop is white",
+      "targeted_group": "non-white people",
+      "implied_meaning": "non-white people are worthless"
+    }
+  ],
+  "signature": {
+    "instructions": "Imagine you are a content moderator for a large social media platform. There has been a surge in reports of subtle, implicit hate speech that is inciting real-world violence and causing significant harm to various communities. Your job is crucial in preventing further escalation and ensuring the safety of these groups.\n\nYou will be presented with texts that have been flagged as potential \"implicit hate speech.\" This type of hate speech is more complex and subtle, attacking a person or a group of people based on their protected characteristics without using explicit keywords. Your task is to infer both the targeted group (GROUP) and the stereotype, characteristic, or implication about that group expressed in the text.\n\nFollow this procedure carefully, as lives may depend on your accuracy:\n\n**Task 1: Identify the targeted group (GROUP).**\nThe group might be defined by characteristics such as ethnicity, religion, class, sexual orientation, immigration status, or similar traits. Examples of groups include:\n- Black folks\n- Asian folks\n- Muslims\n- Jews\n- Latino\/Latina folks\n- Immigrants\n\n**Task 2: Determine what stereotype, characteristic, or action is implied about the identified group.**\nUsing the group identified in Step 1, describe the implication using a simple phrase. Avoid copying text directly from the text. Examples of such phrases include:\n- [GROUP] do\/does [action]\n- [GROUP] are [characteristic]\n- [GROUP] kill [action]\n- [GROUP] have [trait]\n- [GROUP] commit [action]\n\nFor example:\n\"Women are ***.\"\n\"Immigrants take ***.\"\n\"Muslims kill ***.\"\n\"Liberals are ***.\"\n\nTo ensure thoroughness and accuracy, imagine three different experts are collaborating to analyze each text. They will brainstorm the answer step by step, reasoning carefully and considering all facts. Here\u2019s how they will proceed:\n\n1. Each expert will write down one step of their thinking and share it with the group.\n2. They will critique their own response and the responses of others.\n3. They will check their answers based on the nature of the language and intent.\n4. The experts will move to the next step and continue this process until they reach a conclusion, taking into account the thoughts of the other experts.\n5. If at any point they realize there is uncertainty in their logic, they will backtrack to where that uncertainty occurred.\n6. If any expert realizes they are wrong, they will acknowledge this and start a new train of thought.\n7. Each expert will assign a likelihood to their current assertion being correct.\n8. Continue until the experts agree on the single most likely classification.\n\nRemember, your analysis is critical in preventing further harm and ensuring the safety of targeted communities.",
+    "fields": [
+      {
+        "prefix": "Post:",
+        "description": "${post}"
+      },
+      {
+        "prefix": "Targeted Group:",
+        "description": "${targeted_group}"
+      },
+      {
+        "prefix": "Implied Meaning:",
+        "description": "${implied_meaning}"
+      }
+    ]
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12.3",
+      "dspy": "2.5.43",
+      "cloudpickle": "3.0.0"
+    }
+  }
+}

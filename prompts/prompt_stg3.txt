@@ -1,0 +1,33 @@
+The following text has been categorized as "implicit hate speech", a more complex and subtle attack on a person or a group of people based on their protected characteristics without relying on explicit keywords.
+
+Your job is to infer both the targeted group (GROUP) and the stereotype, characteristic, or implication about that group expressed in the text. 
+You have two tasks:
+
+Task 1: Identify the targeted group (GROUP).
+The group might be defined by characteristics such as ethnicity, religion, class, sexual orientation, immigration status, or similar traits. Examples of groups include:
+
+-Black folks
+-Asian folks
+-Muslims
+-Jews
+-Latino/Latina folks
+-Immigrants
+
+
+Task 2: Determine what stereotype, characteristic, or action is implied about the identified group.
+Using the group identified in Task 1, describe the implication using a simple phrase. Avoid copying text directly from the text. Examples of such phrases include:
+
+-[GROUP] do/does [action]
+-[GROUP] are [characteristic]
+-[GROUP] kill [action]
+-[GROUP] have [trait]
+-[GROUP] commit [action]
+
+For example:
+
+"Women are ***."
+"Immigrants take ***."
+"Muslims kill ***."
+"Liberals are ***."
+
+{tree_of_thoughts}

@@ -1,0 +1,175 @@
+{
+  "lm": null,
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "post": "  \" : adolf \" \" smiley face \" \" t-shirt from the white resister : \" \" ; \"",
+      "implicit_class": "incitement",
+      "confidence": 0.9,
+      "explanation": "The post references Adolf Hitler and a t-shirt from \"the white resister,\" which strongly suggests an incitement of white supremacist ideologies and potential support for extremist groups. The use of a smiley face indicates a positive or approving sentiment towards these elements, further reinforcing the classification as incitement."
+    },
+    {
+      "augmented": true,
+      "post": "Bury that POS and curse the traitor to hell. https:\/\/www.theamericanconservative.com\/articles\/m... #MAGA #TAOTD #PresidentTrump",
+      "implicit_class": "threatening",
+      "confidence": 0.85,
+      "explanation": "The post contains language that conveys a commitment to the target's harm and violation of rights, specifically by expressing a desire for the target to be cursed to hell. This aligns with the \"threatening\" class, which includes implicit violations of rights and more subtle forms of intimidation. The confidence level is 0.85 as the intent to threaten is quite clear, but there is a small degree of uncertainty due to the lack of explicit violent threats."
+    },
+    {
+      "augmented": true,
+      "post": "charlotte is better than that concrete african jungle called atlanta",
+      "implicit_class": "inferiority",
+      "confidence": 0.9,
+      "explanation": "The post denigrates a city associated with a specific demographic group by using the term \"concrete African jungle,\" which implies a negative stereotype and inferiority. This language is dehumanizing and suggests a lower status for the city and its inhabitants, fitting the \"inferiority\" class of implicit hate speech."
+    },
+    {
+      "augmented": true,
+      "post": "white ( guilt ) knight",
+      "implicit_class": "white_grievance",
+      "confidence": 0.85,
+      "explanation": "The term \"white (guilt) knight\" implies a sense of grievance or resentment towards the notion of white guilt. This aligns with the \"white grievance\" category, which includes frustration over perceived privileges of minority groups and the idea that majority groups are the real victims of racism. The confidence level is high but not absolute, as there could be other interpretations without additional context."
+    },
+    {
+      "augmented": true,
+      "post": "white european jihad murderers are ok ?",
+      "implicit_class": "irony",
+      "confidence": 0.85,
+      "explanation": "The post uses a rhetorical question to imply a double standard, which is a common tactic used in irony to convey a message. The use of \"white european jihad murderers\" juxtaposes terms typically associated with different groups, further emphasizing the ironic tone. The intent seems to be to critique the perceived acceptability of certain actions based on the perpetrator's race or ethnicity."
+    },
+    {
+      "augmented": true,
+      "post": "no!!! close the gates!!",
+      "implicit_class": "threatening",
+      "confidence": 0.85,
+      "explanation": "The post \"no!!! close the gates!!\" implies a strong sentiment of exclusion and barrier enforcement, which can be interpreted as a threat to prevent certain groups from entering or accessing a particular area. This aligns with the \"threatening\" class, as it conveys a commitment to denying access or opportunities, which is a form of implicit violation of rights and freedoms. The confidence level of 0.85 reflects a high likelihood that this interpretation is correct, given the explicit and urgent language used."
+    },
+    {
+      "augmented": true,
+      "post": "yeah, because the dems want to bring in degenerates that don't belong here.",
+      "implicit_class": "inferiority",
+      "confidence": 0.85,
+      "explanation": "The post refers to a group of people as \"degenerates\" and implies that they do not belong, which is a clear indication of inferiority language. The term \"degenerates\" is dehumanizing and suggests that the targeted group is inferior to others. The confidence level is high at 0.85 because the language used directly aligns with the characteristics of the \"inferiority\" class, although there is some room for interpretation based on the broader context."
+    },
+    {
+      "augmented": true,
+      "post": "sub-saharan africans, the majority of american black lineage, are subhuman. the genetic data is clear. no matter what the cucks wish.",
+      "implicit_class": "inferiority",
+      "confidence": 0.95,
+      "explanation": "The post dehumanizes Sub-Saharan Africans and American blacks by labeling them as \"subhuman\" and uses pseudoscientific claims to justify this inferiority. The derogatory term \"cucks\" further reinforces the hostile and dismissive tone of the post, clearly fitting the category of inferiority language."
+    },
+    {
+      "augmented": true,
+      "post": "they want it called a hate incident so they can imply white trump supporters did it . cair is an anti-us hate organization .",
+      "implicit_class": "white_grievance",
+      "confidence": 0.85,
+      "explanation": "This post expresses frustration and grievance towards a perceived bias against white Trump supporters, aligning with the \"white grievance\" category. The post suggests that certain organizations are trying to frame incidents in a way that implies white Trump supporters are at fault, which fits the narrative of white grievance where majority groups are cast as victims."
+    },
+    {
+      "augmented": true,
+      "post": "white . proud . no . apologies .",
+      "implicit_class": "incitement",
+      "confidence": 0.85,
+      "explanation": "The post \"white . proud . no . apologies .\" conveys a strong sense of pride and unapologetic stance towards being white. This aligns with the \"incitement\" class, as it elevates a sense of unity and power within the white community, which can be interpreted as flaunting ingroup unity and power. The high confidence level of 0.85 reflects the clear and direct message of the post, which fits well within the criteria for the \"incitement\" class."
+    },
+    {
+      "augmented": true,
+      "post": "round the muslims up send their asses packing.",
+      "implicit_class": "threatening",
+      "confidence": 0.9,
+      "explanation": "The post advocates for the forced removal of Muslims, which is a clear threat to their rights and safety. The language used, such as \"round them up\" and \"send their asses packing,\" conveys a speaker commitment to a target's pain, injury, damage, loss, or violation of rights. This aligns with the \"threatening\" category of implicit hate speech."
+    },
+    {
+      "augmented": true,
+      "post": "jews take great offense to being called white .",
+      "implicit_class": "stereotypical",
+      "confidence": 0.8,
+      "explanation": "The post generalizes the attitudes and behaviors of Jews, suggesting that they universally take offense to being called white. This kind of generalization contributes to stereotyping and misinformation about a protected class, fitting the category of \"Stereotypes and Misinformation.\""
+    },
+    {
+      "augmented": true,
+      "post": "#dayafterchristmas in america during the current year . join the #altright  white people . #malls",
+      "implicit_class": "incitement",
+      "confidence": 0.85,
+      "explanation": "This post is classified as \"incitement\" because it encourages white people to join the alt-right movement, which is known for its extremist ideologies. The use of hashtags like #altright and the context of the message suggest a call to unity and power for a specific group, which aligns with the definition of incitement in the given taxonomy. The confidence level is 0.85 as the message clearly promotes an ideology that has been linked to extremist behavior."
+    },
+    {
+      "augmented": true,
+      "post": "switzerland : africans kill elderly white man then start screaming about racism #swrm via",
+      "implicit_class": "white_grievance",
+      "confidence": 0.85,
+      "explanation": "The post describes a violent incident involving Africans and a white man, followed by a comment about racism. This fits the definition of \"white_grievance\" as it implies that the white man is a victim of racism, perpetuating a sense of white victimhood. The mention of racism after the crime could be seen as ironic, but it's more likely a form of white grievance. The post does not explicitly incite violence or threaten anyone directly, but it does perpetuate a negative stereotype and a sense of white victimhood."
+    },
+    {
+      "augmented": true,
+      "post": "i'm a nationalist  and white . ergo  white nationalist . so long as identity politics exist  we must play the game  or lose by not showing up .",
+      "implicit_class": "incitement",
+      "confidence": 0.9,
+      "explanation": "The post explicitly identifies the speaker as a \"white nationalist\" and discusses the need to engage in identity politics to avoid losing. This language suggests a sense of white grievance and a call to action, which are characteristics of both white grievance and incitement. However, the call to action and the sense of urgency are more aligned with incitement. The post is not just expressing frustration but also encouraging active participation, which is a key characteristic of incitement."
+    },
+    {
+      "augmented": true,
+      "post": "thats all we need . as long as the white race is at the top . thats very important .",
+      "implicit_class": "incitement",
+      "confidence": 0.9,
+      "explanation": "This post implies the superiority of the white race and the importance of maintaining that superiority. This aligns with the \"incitement\" category as it elevates one group over others and could potentially incite divisive or harmful actions. The confidence level is high at 0.9 because the post explicitly states the importance of the white race being \"at the top.\""
+    },
+    {
+      "augmented": true,
+      "post": "no smart wall a deadly wall is what we need machine guns , rocket launchers and land mines on the mexican side blow a few up problem solved",
+      "implicit_class": "threatening",
+      "confidence": 0.95,
+      "explanation": "The post explicitly advocates for violence and lethal force against individuals attempting to cross the Mexican border. The language used, such as \"deadly wall,\" \"machine guns,\" \"rocket launchers,\" and \"land mines,\" clearly conveys a threat of violence and harm. This aligns with the \"threatening\" class, which includes implicit or explicit threats of violence or harm. The high confidence level of 0.95 reflects the clear and direct nature of the threatening language used in the post."
+    },
+    {
+      "augmented": true,
+      "post": "what do you call a mentally handicapped jew ? aushwistic .",
+      "implicit_class": "irony",
+      "confidence": 0.9,
+      "explanation": "This post uses a derogatory pun to demean a protected class, specifically Jewish individuals. The use of the term \"Auschwitz\" in a mocking manner is a clear example of irony being used to attack and demean, fitting the criteria for the \"irony\" class in the taxonomy of implicit hate speech. The high confidence level reflects the clear and intentional use of offensive humor to target a specific group."
+    },
+    {
+      "augmented": true,
+      "post": "also, charge mexico for all legal & imprisonment costs, including transportation back to mexico! why are us citizens on the hook for any $$?",
+      "implicit_class": "threatening",
+      "confidence": 0.9,
+      "explanation": "The post suggests charging Mexico for legal and imprisonment costs related to immigration, implying a form of retribution or punishment. This aligns with the \"threatening\" class, as it conveys a speaker's commitment to a target's pain, injury, damage, loss, or violation of rights. The confidence level is high at 0.9, as the language and intent clearly fit the criteria for threatening behavior."
+    },
+    {
+      "augmented": true,
+      "post": "muslims are commanded to kill all jews ! see verse :",
+      "implicit_class": "stereotypical",
+      "confidence": 0.9,
+      "explanation": "This post perpetuates a negative stereotype about Muslims by attributing violent intentions to them based on a purported religious commandment. This falls under the category of \"Stereotypes and Misinformation\" as it associates a protected class with negative attributes and misinformation."
+    }
+  ],
+  "signature": {
+    "instructions": "The following text has been categorized as \"implicit hate speech\", a more complex and subtle attack on a person or a group of people based on their protected characteristics without relying on explicit keywords.\n\nEvaluate the text against the following taxonomy to determine the most likely class.\nClass taxonomy of implicit hate speech:\n\n1. White Grievance: includes frustration over a minority group's perceived privilege and casting majority groups as the real victims of racism. This language is linked to extremist behavior and support for violence. An example is 'Black lives matter and white lives don't? Sounds racist.'\n2. Incitement to Violence: includes flaunting ingroup unity and power or elevating known hate groups and ideologies. Phrases like 'white brotherhood' operate in the former manner, while statements like 'Hitler was Germany \u00e2\u20ac\u201c Germans shall rise again!' operate in the latter, elevating nationalism and Nazism. Article 20 of the UN International Covenant on Civil and Political states that speech which incites violence shall be prohibited by law.\n3. Inferiority Language: implies one group or individual is inferior to another, and it can include dehumanization (denial of a person's humanity), and toxification (language that compares the target with disease, insects, animals), both of which are early warning signs of genocide. Inferiority language is also related to assaults on human dignity, dominance, and declarations of superiority of the in-group. For example, 'It's not a coincidence the best places to live are majority white.'\n4. Irony: refers to the use of sarcasm, humor, and satire to attack or demean a protected class or individual. For example, in the context of one hate group, the post 'Horrors... Disney will be forced into hiring Americans works to discredit Disney for allegedly hiring only non-citizens or, really, nonwhites'. Irony is not exempt from our hate speech typology, since it is commonly used by modern online hate groups to mask their hatred and extremism.\n5. Stereotypes and Misinformation: associate a protected class with negative attributes such as crime, or terrorism as in the rhetorical question, 'Can someone tell the black people in Chicago to stop killing one another before it becomes Detroit?' This class also includes misinformation that feeds stereotypes and vice versa, like holocaust denial and other forms of historical negationism.\n6. Threatening and Intimidation: convey a speaker commitment to a target's pain, injury, damage, loss, or violation of rights. While explicitly violent threats are well-recognized in the hate speech literature, here we highlight threats related to implicit violation of rights and freedoms, removal of opportunities, and more subtle forms of intimidation, such as 'All immigration of non-whites should be ended'.\n7. Other: none of the above was identified \n\nFollow this procedure:\n\nImagine three different experts are answering this question.\nThey will brainstorm the answer step by step reasoning carefully and taking all facts into consideration.\nAll experts will write down 1 step of their thinking, then share it with the group.\nThey will each critique their response, and the all the responses of others.\nThey will check their answer on based on the nature of the language and intent.\nThen all experts will go on to the next step and write down this step of their thinking.\nThey will keep going through steps until they reach their conclusion taking into account the thoughts of the other experts.\nIf at any time they realise that there uncertainty in their logic they will backtrack to where that uncertainty occurred. \nIf any expert realises they're wrong at any point then they acknowledges this and start another train of thought.\nEach expert will assign a likelihood of their current assertion being correct.\nContinue until the experts agree on the single most likely classification.\n\nReturn in output\n\n1. the most probable class  \n2. a confidence level between 0 and 1 for you classification\n3. an explanation for you classification",
+    "fields": [
+      {
+        "prefix": "Post:",
+        "description": "${post}"
+      },
+      {
+        "prefix": "Implicit Class:",
+        "description": "${implicit_class}"
+      },
+      {
+        "prefix": "Confidence:",
+        "description": "${confidence}"
+      },
+      {
+        "prefix": "Explanation:",
+        "description": "${explanation}"
+      }
+    ]
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12.3",
+      "dspy": "2.5.43",
+      "cloudpickle": "3.0.0"
+    }
+  }
+}

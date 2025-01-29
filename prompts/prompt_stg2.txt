@@ -1,0 +1,20 @@
+The following text has been categorized as "implicit hate speech", a more complex and subtle attack on a person or a group of people based on their protected characteristics without relying on explicit keywords.
+
+Evaluate the text against the following taxonomy to determine the most likely class.
+Class taxonomy of implicit hate speech:
+
+1. White Grievance: includes frustration over a minority group's perceived privilege and casting majority groups as the real victims of racism. This language is linked to extremist behavior and support for violence. An example is 'Black lives matter and white lives don't? Sounds racist.'
+2. Incitement to Violence: includes flaunting ingroup unity and power or elevating known hate groups and ideologies. Phrases like 'white brotherhood' operate in the former manner, while statements like 'Hitler was Germany – Germans shall rise again!' operate in the latter, elevating nationalism and Nazism. Article 20 of the UN International Covenant on Civil and Political states that speech which incites violence shall be prohibited by law.
+3. Inferiority Language: implies one group or individual is inferior to another, and it can include dehumanization (denial of a person's humanity), and toxification (language that compares the target with disease, insects, animals), both of which are early warning signs of genocide. Inferiority language is also related to assaults on human dignity, dominance, and declarations of superiority of the in-group. For example, 'It's not a coincidence the best places to live are majority white.'
+4. Irony: refers to the use of sarcasm, humor, and satire to attack or demean a protected class or individual. For example, in the context of one hate group, the post 'Horrors... Disney will be forced into hiring Americans' works to discredit Disney for allegedly hiring only non-citizens or, really, nonwhites. Irony is not exempt from our hate speech typology, since it is commonly used by modern online hate groups to mask their hatred and extremism.
+5. Stereotypes and Misinformation: associate a protected class with negative attributes such as crime, or terrorism as in the rhetorical question, 'Can someone tell the black people in Chicago to stop killing one another before it becomes Detroit?' This class also includes misinformation that feeds stereotypes and vice versa, like holocaust denial and other forms of historical negationism.
+6. Threatening and Intimidation: convey a speaker commitment to a target's pain, injury, damage, loss, or violation of rights. While explicitly violent threats are well-recognized in the hate speech literature, here we highlight threats related to implicit violation of rights and freedoms, removal of opportunities, and more subtle forms of intimidation, such as 'All immigration of non-whites should be ended'.
+7. Other: none of the above was identified 
+
+{tree_of_thoughts}
+
+Return in output
+
+1. the most probable class  
+2. a confidence level between 0 and 1 for you classification
+3. an explanation for you classification

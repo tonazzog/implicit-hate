@@ -1,0 +1,85 @@
+{
+  "lm": null,
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "post": "lol ! you guys talk so good . words use to make the fancy statements .",
+      "hate_class": "not_hate",
+      "confidence": 0.95,
+      "explanation": "The post does not contain any language that implicitly or explicitly expresses hate. It is a neutral comment about the way people communicate."
+    },
+    {
+      "augmented": true,
+      "post": "hey guys anyway i can join up ? i follow orders really well . just ask anybody  no one does #uncletom like me !",
+      "hate_class": "implicit_hate",
+      "confidence": 0.85,
+      "explanation": "The use of the hashtag \"#uncletom\" in a self-referential and derogatory manner suggests an underlying racist sentiment, even though it is not explicitly stated. The term \"Uncle Tom\" is a racial slur directed towards African Americans, implying subservience and betrayal of one's racial or ethnic group."
+    },
+    {
+      "augmented": true,
+      "post": "more like this to come if white people don't stand up for ourselves . of offers sound hate free advice unlike left",
+      "hate_class": "implicit_hate",
+      "confidence": 0.85,
+      "explanation": "The post implies a threat or warning directed towards a specific racial group (white people), suggesting that if they do not take certain actions, negative consequences will follow. This indirectly promotes racial tension and division, which is characteristic of implicit hate speech."
+    },
+    {
+      "augmented": true,
+      "post": "rt the active shooter in charleston sc is a crazy black man not a white supremacist . i know you democrat race baiters ( cont",
+      "hate_class": "implicit_hate",
+      "confidence": 0.85,
+      "explanation": "The post implies a racist stereotype by assuming that the shooter is a \"crazy black man\" and dismisses the possibility of a white supremacist being involved. It also includes a derogatory term \"democrat race baiters,\" which contributes to a divisive and hateful narrative."
+    },
+    {
+      "augmented": true,
+      "post": "  \" i wont be deterred by some tall people standing near me . \" \" \"",
+      "hate_class": "not_hate",
+      "confidence": 0.95,
+      "explanation": "The post does not contain any language that implicitly or explicitly expresses hate. It merely expresses a personal resolve not to be intimidated by others, without targeting any specific group or using derogatory language."
+    },
+    {
+      "augmented": true,
+      "post": "what have black people contributed to science ?",
+      "hate_class": "implicit_hate",
+      "confidence": 0.85,
+      "explanation": "The post implies a derogatory and dismissive attitude towards the contributions of black people to science, which can be interpreted as implicit hate speech. The confidence level is high due to the clear insinuation of disparagement based on race."
+    },
+    {
+      "post": "i printed posters of #khallidmuhammad and i blast diarrhea on them everyday!",
+      "hate_class": "implicit_hate"
+    },
+    {
+      "post": "so it sounds like you're trying to get by with just being white ( not a race ) .",
+      "hate_class": "not_hate"
+    }
+  ],
+  "signature": {
+    "instructions": "You are tasked with analyzing a short, informal post to determine if it contains hate speech. The post may include various sentiments, styles, hashtags, mentions, sarcasm, rhetorical questions, references to external sources, or calls for action. Your goal is to classify the post into one of the following categories: 'implicit_hate', 'explicit_hate', or 'not_hate'.\n\nFor each post, provide the following:\n1. **Hate Class**: The category that best describes the post ('implicit_hate', 'explicit_hate', or 'not_hate').\n2. **Confidence**: A confidence score (between 0 and 1) indicating the certainty of your classification.\n3. **Explanation**: A detailed explanation of why the post was classified as such. Highlight specific phrases, implications, or contextual clues that contribute to the hate speech classification. This explanation should provide transparency into your decision-making process.\n\nEnsure that your explanation is thorough and considers the nuances of the post, such as the use of sarcasm, rhetorical questions, or indirect references that might imply hate speech.\n\nHere are some examples to guide you:\n\n**Example 1:**\n- Post: \"rt the active shooter in charleston sc is a crazy black man not a white supremacist . i know you democrat race baiters (cont\"\n- Hate Class: implicit_hate\n- Confidence: 0.85\n- Explanation: The post implies a racist stereotype by assuming that the shooter is a \"crazy black man\" and dismisses the possibility of a white supremacist being involved. Additionally, it uses derogatory language like \"democrat race baiters,\" which contributes to a divisive and hateful narrative.\n\n**Example 2:**\n- Post: \"glenn beck will soon announce he is leading his third great awakening followers to guyana to build becktown .\"\n- Hate Class: not_hate\n- Confidence: 0.9\n- Explanation: This post discusses a public figure's plans and does not target any particular group with hate or negative sentiment.\n\nPlease follow these guidelines to accurately classify the posts and provide clear, informative explanations.",
+    "fields": [
+      {
+        "prefix": "Post:",
+        "description": "${post}"
+      },
+      {
+        "prefix": "Hate Class:",
+        "description": "${hate_class}"
+      },
+      {
+        "prefix": "Confidence:",
+        "description": "${confidence}"
+      },
+      {
+        "prefix": "Explanation:",
+        "description": "${explanation}"
+      }
+    ]
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12.3",
+      "dspy": "2.5.43",
+      "cloudpickle": "3.0.0"
+    }
+  }
+}

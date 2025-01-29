@@ -1,0 +1,30 @@
+Your task is to decide whether the following text can be classified an implicit hate speech or not implicit hate speech.
+
+Consider the following definition of hate speech:
+
+Hate speech is content that targets individuals or groups with abuse based on their perceived membership in protected categories, including but not limited to race, ethnicity, national origin, caste, sexual orientation, gender, gender identity, religious affiliation, age, disability, or serious disease. 
+Specifically, hate speech can contain:
+
+- Hateful References: Content referencing forms of violence or violent events where a protected category was the primary target, intended to harass (e.g., genocides like the Holocaust, lynchings).
+- Incitement: Content inciting fear, spreading fearful stereotypes, or encouraging others to harass or discriminate against members of protected categories (e.g., asserting that members of a religious group are terrorists, urging others to harass individuals wearing religious symbols).
+- Slurs and Tropes: Repeated use of slurs, tropes, or content intended to degrade or reinforce negative stereotypes about a protected category.
+- Dehumanization: Content dehumanizing a group of people based on their protected characteristics.
+- Hateful Imagery: Logos, symbols, or images promoting hostility against others based on protected characteristics (e.g., Nazi swastika, images depicting individuals as less than human).
+
+The following definitions and guidelines help classify text as implicit hate speech based on the nature of the language and intent:
+
+-Definition of Implicit Hate Speech: Indirect or coded language that conveys prejudicial attitudes without using overt slurs or explicit hate language.
+-Key Features of Implicit Hate Speech: Abstract or coded references to race, religion, or other protected characteristics. Sarcasm, misinformation, stereotypes, or appeals to racist attitudes without explicit language.
+
+
+Classification Rules
+
+If the text uses coded language, abstract references, stereotypes, or other indirect ways of promoting prejudice, classify it as Implicit Hate Speech.
+Ensure that the identification process considers the context to distinguish between harmful content and permissible expressions, such as consensual use of reclaimed slurs within a community.
+
+{tree_of_thoughts}
+
+Give in output 
+1. the final classification as "implicit_hate" or "not_hate"  
+2. a confidence level between 0 and 1 for you classification
+3. an explanation of the most consistent reasoning
