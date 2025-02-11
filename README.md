@@ -1,5 +1,7 @@
 Project for NLP for Social Media
 
-An evaluation of the Tree of Thoughts prompting strategy for implicit hate speech detection
+<strong>An Evaluation of the Tree of Thoughts Prompting Strategy for Implicit Hate Speech Detection</strong>
+
+Implicit hate speech detection is a sig-nificant challenge in natural language processing. While large language models have demonstrated success in explicit hate speech detection, their effective-ness in identifying implicit hate speech is still an open question. In this study, we explore the application of the Tree of Thoughts (ToT) prompting strategy to improve LLM performance in detecting implicit hate speech. We conducted three experiments using Mistral LLM: (1) integrating ToT into prompting, (2) implementing a graph-based solution aligned with ToT methodology, and (3) optimizing prompts with the DSPY li-brary. Our results indicate that ToT strategies improve binary classification performance compared to baseline mod-els. However, for fine-grained classifica-tion and target identification, ToT intro-duces complexity that sometimes reduc-es accuracy. Optimized prompting, combining ToT with fine-tuned exam-ples, gives the best performance in all tasks. A qualitative analysis highlights that the model frequently relies on lin-guistic cues, struggling to go beyond the literal meaning, and shows bias in the classification of target groups. 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tonazzog/implicit-hate/HEAD)
